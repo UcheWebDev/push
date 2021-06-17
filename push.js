@@ -15,4 +15,8 @@ let sub =
         p256dh:"BGlGga58p0B5BxWsJjwdDwCgZyFiXKgu_xNKazBU12p7WM01w7Pml7y4-A0zBehNdTMoszc3SomrbYfn9NERA5s",
         auth:"QRq7JIYibHVN1ehsCadc3A"}}
 ;
-  push.sendNotification(sub, 'test message')
+
+function testpush(){
+    push.sendNotification(sub, 'test message')
+}
+testpush();
