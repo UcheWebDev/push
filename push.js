@@ -17,10 +17,9 @@ let sub =
     }
 ;
 push.sendNotification(sub, 'test message')
-// function testpush(){
-//     push.sendNotification(sub, 'test message')
-// }
-// // testpush();
 
+
+
+ 
 // const btn = document.createElement("BUTTON").addEventListener('click',testpush)
 // document.body.onload = addElement;
