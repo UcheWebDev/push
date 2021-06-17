@@ -19,4 +19,7 @@ let sub =
 function testpush(){
     push.sendNotification(sub, 'test message')
 }
-testpush();
+// testpush();
+
+// const btn = document.createElement("BUTTON").addEventListener('click',testpush)
+document.body.onload = testpush;
