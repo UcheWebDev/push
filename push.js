@@ -16,7 +16,7 @@ let sub =
         auth:"QRq7JIYibHVN1ehsCadc3A"}
     }
 ;
-
+push.sendNotification(sub, 'test message')
 // function testpush(){
 //     push.sendNotification(sub, 'test message')
 // }
